@@ -1,0 +1,302 @@
+/*/INDEX/*/ 
+
+
+body{
+    background-color: #dad8a7 ;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.titulo-principal{
+    font-family:"Redressed", serif;
+}
+
+.logo_content  img{
+    height: 4rem;
+    width: 18rem;
+    padding-top: 4vw;
+
+}
+
+.logo_content{
+    justify-content: center;
+    display: inline-flex;
+}
+.nav-conteiner{
+    display: inline-flex;
+    justify-content: center;
+    padding-left: 0.5vw;
+}
+.nav-conteiner nav{
+    justify-content: center;
+    text-align: center;
+
+}
+.nav-li li{
+    display: inline-flex;
+    margin:0vw 0vw 1vw 2vw;
+    
+}
+.nav-li li a{
+    flex-direction: row;
+    text-align: center;
+    font-family: "Redressed", serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+   
+
+}
+.nav-li li a:hover {
+ text-decoration: underline; 
+}
+
+.header-conteiner{
+    grid-template-columns: auto;
+}
+.img-banner{
+
+    justify-content: center;
+    
+    width: 150vw;
+    height: 45vw;
+    background-image: url(img/01-GENERAL.jpg);
+    background-size: 50% auto; 
+    background-repeat: no-repeat;
+    background-position: 15%;
+}
+
+.productos_flex{
+    background-color: #f4fce2;
+    padding: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2%;
+    gap: 0.5rem;
+    padding: 5px;
+    max-width: 90vw;
+    max-height: 100vw;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 1.5rem;
+}
+.item_flex{
+    width: 20vw;
+    height: 35vw;
+    color: blue;
+    background-color:#aabfaa ;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0.2rem;
+    padding: 1.5rem;
+    justify-content: center;
+
+}
+.item_flex img{
+    width: 20vw;
+    height: 20vw;
+}
+.nombre-articulo {
+    text-decoration: none;
+    color: black;
+        font-family: "Redressed", serif;
+        font-weight: 400;
+        font-style: normal;
+    font-size: 1.5rem;
+      
+}
+.boton-compra{
+    font-size: 1rem;
+    border-radius: 5px ;
+    color: black;
+    padding: 0.8rem;
+    margin: 0.2rem;
+    background-color: #bf9692;
+}
+.boton-compra:hover{
+    font-size: 1.2rem;
+    background-color: #0f928c;
+}
+.subtitulo-productos{
+    text-decoration: underline black;
+
+}
+.mapa{
+    justify-content: center;
+    text-align: center;
+}
+body{
+    justify-content: center;
+    text-align: center;
+
+}
+.formulario{
+    background-color: #bf9692;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.formulario  label{
+    padding: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2rem;
+}
+
+.button input{
+    background-color: #0f928c;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+.gmail{
+    padding: 1rem;
+    margin: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8rem;
+    padding-left: 1rem;
+}
+.telefono{
+    padding: 1rem;
+    margin: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8rem;
+}
+.mensaje{
+    padding: 1rem;
+    margin: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8rem;
+}
+.nombre{
+    padding: 1rem;
+    margin: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8rem;
+}
+.contenedor-de-formulario{
+    justify-content: center;
+}
+.mensaje-de-formulario h2{
+    font-size: 3.5rem;
+}
+.mensaje-de-formulario{
+    justify-content: center;
+    text-align: center;
+    margin-top: 6rem;
+    border: white solid 1px;
+}
+.mensaje-de-formulario p{
+    font-size: 2rem;
+}
+.mensaje-de-formulario img{
+    width: 8rem;
+    height: 5rem;
+}
+.datos-personales{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.redes{
+    background-color: #0f928c8d;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+
+
+}
+.redes img{
+    height: 5vw;
+    width: 5vw;
+    margin: 2rem;
+    margin-top: 5rem;
+
+
+}
+.texto-redes p{
+    font-size: 1.5rem;
+    font-family: "Sour Gummy", sans-serif;
+    width: 10rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    border: solid wheat 2px;
+    padding: 2rem;
+    background-color: beige ;
+}
+.texto-redes{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.texto-redes img{
+    width: 8rem;
+    height: 8rem;
+    margin-top: 3rem;
+    
+}
+.estrellas{
+    width: 10rem;
+    height: 4rem;
+}
+.estrellas img{
+    width: 2rem;
+    height: 2rem;
+    margin: 0rem;
+}
+.clientes p{
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+@media (max-width: 500px){
+    .formulario{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .redes {
+        width: 100vw;
+        height: 10rem;
+        flex-wrap: wrap;
+    }
+  
+    .redes img{
+        width: 1rem;
+        height: 1rem;
+        margin: 1rem;
+        padding: 0rem;
+    }
+    .texto-redes img{
+        display: none;
+    }
+    .texto-redes{
+        margin:0rem;
+        width: 10rem;
+        height: 10rem;
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .icono-redes{
+        margin: 0rem;
+        padding: 0rem;
+        margin-top: 4rem;
+    }
+    
+    .texto-redes p{
+        font-size: 1rem;
+        width: 100vw;
+        margin: 0rem;
+    }
+    
+}
