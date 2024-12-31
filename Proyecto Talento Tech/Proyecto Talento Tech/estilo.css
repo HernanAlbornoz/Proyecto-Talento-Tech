@@ -1,0 +1,489 @@
+/*/INDEX/*/ 
+
+
+body{
+    background-color: #faedd2f5 ;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.titulo-principal{
+    font-family:"Redressed", serif;
+}
+main{
+    margin: 2rem;
+}
+
+.logo_content  img{
+    height: 20rem;
+    width: 10rem;
+}
+
+.logo_content{
+    justify-content: center;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+}
+nav ul{
+    display: flex;
+
+}
+nav li{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+.nav-li-li{
+    list-style: none;
+}
+.nav-li li a{
+    flex-direction: row;
+    text-align: center;
+    font-family: "Redressed", serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+
+}
+.nav-li li a:hover {
+ text-decoration: underline; 
+}
+
+.header-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-banner{
+
+    justify-content: center;
+    
+    width: 150vw;
+    height: 45vw;
+    background-image: url(img/01-GENERAL.jpg);
+    background-size: 50% auto; 
+    background-repeat: no-repeat;
+    background-position: 15%;
+}
+
+.productos_flex{
+    background-color: #f4fce2;
+    padding: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2%;
+    gap: 0.5rem;
+    padding: 5px;
+    max-width: 90vw;
+    max-height: 100vw;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 1.5rem;
+}
+.item_flex{
+    width: 20vw;
+    height: 35vw;
+    color: blue;
+    background-color:#aabfaa ;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0.2rem;
+    padding: 1.5rem;
+    justify-content: center;
+
+}
+.item_flex img{
+    width: 100%;
+    height: 50%;
+}
+.picture{
+    justify-content: center;
+
+}
+.picture-img{
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+.nombre-articulo {
+    text-decoration: none;
+    color: black;
+        font-family: "Redressed", serif;
+        font-weight: 400;
+        font-style: normal;
+    font-size: 1.5rem;
+      
+}
+
+.boton-compra:hover{
+    font-size: 1.2rem;
+    background-color: #0f928c;
+}
+.subtitulo-productos{
+    text-decoration: underline black;
+
+}
+.mapa{
+    justify-content: center;
+    text-align: center;
+}
+body{
+    justify-content: center;
+    text-align: center;
+
+}
+
+.formulario  label{
+    padding: 0.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0.5rem;
+}
+.nombre label{
+    display: block;
+}
+.email label{
+    display: block;
+}
+.textarea label{
+    display: block;
+}
+
+.button input{
+    background-color: #0f928c;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.telefono label{
+    display: block;
+}
+
+.telefono p{ 
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8rem;
+}
+.email p{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8rem;
+}
+.textarea p{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8rem;
+    display: block;
+
+}
+
+.nombre p{
+    padding: 1rem;
+    margin: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8rem;
+}
+
+.mensaje-de-formulario h2{
+    font-size: 2rem;
+}
+.mensaje-de-formulario{
+    height: 25rem;
+    width: 20rem;
+    padding: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    border: rgba(173, 167, 149, 0.589) solid 2px;
+    border-radius: 10px;
+}
+.mensaje-de-formulario p{
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+.mensaje-de-formulario img{
+    margin: 0.5rem;
+    width: 6rem;
+    height: 5rem;
+}
+
+
+
+.container-contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-contacto div{
+    margin-left: 5rem;
+}
+
+.redes{
+    background-color: #229c958d;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+
+
+}
+.icono-redes{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.icono-redes a img{
+    height: 5vw;
+    width: 5vw;
+    margin: 2rem;
+    margin-top: 5rem;
+
+}
+
+.estrellas{
+    width: 10rem;
+    height: 4rem;
+}
+.estrellas img{
+    width: 2rem;
+    height: 2rem;
+    margin: 0rem;
+}
+.clientes p{
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+.icono-redes{
+    justify-content: center;
+    text-align: center;
+
+}
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 0.2rem;
+    background-color: rgba(206, 184, 232, 0.654);
+}
+.cardCreada{
+    width: auto;
+    height: auto;
+    box-shadow: 2px  rgba(0, 0, 0, 0.205);
+}
+.cardCreada img{
+    width: 19vw;
+    height: 18vw;
+}
+.cardCreada:hover img{
+    width: 21vw;
+    height: 20vw;
+}
+.section-productos{
+    text-align: center;
+    justify-content:center;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:initial;
+
+}
+.section-productos-woman{
+    text-align: center;
+    justify-content:center;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:initial;
+
+}
+.section-productos-men{
+    text-align: center;
+    justify-content:center;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:initial;
+
+}
+.section-productos-kids{
+    text-align: center;
+    justify-content:center;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:initial;
+
+}
+.menu-productos li a{
+
+    background-color: #aabfaa;
+    color: #ffff;
+    text-decoration: none;
+    padding: 1.5rem 3.5rem;
+    display: block;
+
+
+}
+
+.menu-productos li a:hover{
+    
+    background-color: #0f928c;
+}
+.menu-productos > li{
+    float: left;
+}
+.menu-productos li{
+    padding: 0rem;
+    margin: 0rem;
+    list-style: none;
+}
+.menu-productos li ul{
+    padding-top: 5rem;
+    display: none;
+    position: absolute;
+    text-align: center;
+    
+
+}
+
+
+.menu-productos li ul li a{
+    width: 14rem;
+    
+}
+.menu-productos li:hover > ul {
+    display: block;
+}
+.botonDeTodosLosProductos{
+    width: 25rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background-color: rgb(221, 217, 212);
+    
+}
+.boton-card{
+
+    width: 6rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    background-color: rgb(221, 217, 212);
+    margin-top: 0.5rem;
+}
+.botonera{
+    display: inline-block;
+    min-width: 100px;    
+    
+
+}
+
+.div-description{
+
+    text-align: center;
+    justify-content: center;
+}
+.div-description p{
+    max-width: 18vw;
+    max-height: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+@media (max-width: 500px){
+
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .section-productos{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:initial;
+    
+    }
+    
+
+nav ul{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+nav li{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+
+}
+.nav-li li a{
+    flex-direction: row;
+    text-align: center;
+    font-family: "Redressed", serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+
+}
+}
+
+@media (max-width: 1000px){
+
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .section-productos{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:initial;
+    
+    }
+    
+nav ul{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+nav li{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+
+}
+.nav-li li a{
+    flex-direction: row;
+    text-align: center;
+    font-family: "Redressed", serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+
+}
+    
+}
